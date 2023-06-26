@@ -1,15 +1,54 @@
-h1{
-font-size: 30px;
-text-align: center;
-color: #de7471
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ma page de présentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
 
-p{
-font-size: 20px;
-text-align: left;
-font-family: Helvetica, sans-serif;
-}
+    h1 {
+      color: #333;
+      text-align: center;
+    }
 
-body {
-background-color: #007471;
-}
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .cv-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cv-link a {
+      display: inline-block;
+      background-color: rgb(165, 22, 22);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .cv-link a:hover {
+      background-color: rgb(3, 0, 88);
+    }
+  </style>
+</head>
+<body>
+  <h1>Présentation</h1>
+  <p>Bienvenue sur ma page de présentation. Je suis Khalid habibi et je suis passionné par l'informatique.</p>
+  <p>Je possède une solide expérience dans en data et j'ai travaillé sur plusieurs projets passionnants.</p>
+  <p>N'hésitez pas à consulter mon CV pour en savoir plus sur mon parcours et mes compétences.</p>
+  <div class="cv-link">
+    <a href="https://www.linkedin.com/in/khalidhabibi/">Consulter mon Linkedin</a>
+  </div>
+</body>
+</html>
